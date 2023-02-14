@@ -1,0 +1,164 @@
+/*Global */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 100px 0 0 0;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+
+/* Header */
+
+header {
+    background-image: url("../images/splash.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    float: right;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list li:first-child a {
+    color: gold;
+    font-weight: bolder;
+    margin-right: 400px;
+}
+
+.nav-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.splash-inner {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.page-subtitle {
+    font-size: 50px;
+    font-style: italic;
+    margin: 0;
+}
+
+.page-title {
+    font-size: 75px;
+    text-transform: uppercase;
+    margin: 0 0 40px 0;
+}
+
+.btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    background-color: gold;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+/* Our services */
+
+.our-services .col-4 {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.our-services i {
+    font-size: 40px;
+    padding: 20px;
+    color: gold;
+    border: 3px solid gold;
+    border-radius: 50%;
+    
+}
+
+.our-services h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Our portfolio */
+
+.our-portfolio {
+    background-color: #f7f7f7;
+}
+
+.card {
+    width: 100%;
+    background-color: white;
+    margin: 0 0 20px 0;
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card p:first-of-type {
+    color: black;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+.card p:last-of-type {
+    color: grey;
+    font-style: italic;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 20px 0;
+    text-align: center;
+}
+
+/* Footer */
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    text-transform: uppercase;
+    float: center;
+}
+
+.footer-list li {
+    margin: 0 20px;
+}
+
+.footer-list li:first-child a {
+    margin-right: 400px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0;
+}
+
+.footer-list i {
+    font-size: 30px;
+}
